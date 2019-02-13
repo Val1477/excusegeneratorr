@@ -22,14 +22,5 @@ let generatorExcuse = () => {
   let whereIndx = Math.floor(Math.random() * where.length);
 
   return (
-    pronoun[proIndx] +
-    " " +
-    subject[subjIndx] +
-    " " +
-    action[actionIndx] +
-    " " +
-    possession[possessionIndx] +
-    "  " +
-    where[whereIndx]
-  );
+    pronoun[proIndx] +" " +subject[subjIndx] + " " +action[actionIndx] +" " +possession[possessionIndx] + "  " +where[whereIndx]);
 };
